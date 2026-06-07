@@ -1,7 +1,7 @@
 """Tests for /api/v1/admin endpoints — 28 tests."""
 import pytest
-from httpx import AsyncClient
-from sqlalchemy.ext.asyncio import AsyncSession
+#from httpx import AsyncClient
+#from sqlalchemy.ext.asyncio import AsyncSession
 
 from tests.conftest import create_user, get_auth_headers, login_user, make_admin
 
