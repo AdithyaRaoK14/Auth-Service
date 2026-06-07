@@ -14,7 +14,6 @@ from app.dependencies import get_current_active_user, get_token_data
 from app.models.user import TokenType, User, VerificationToken
 from app.redis_client import get_redis
 from app.schemas.auth import (
-    AccessTokenResponse,
     ChangePasswordRequest,
     ForgotPasswordRequest,
     ForgotPasswordResponse,
