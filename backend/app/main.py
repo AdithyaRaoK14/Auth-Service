@@ -7,7 +7,7 @@ from app.config import settings
 from app.database import create_tables
 from app.redis_client import close_redis, init_redis
 from app.routers import admin, auth, users
-from app.models.user import UserRole  # ensure models imported for create_all
+#from app.models.user import UserRole  # ensure models imported for create_all
 
 
 @asynccontextmanager
