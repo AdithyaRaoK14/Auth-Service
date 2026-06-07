@@ -74,7 +74,7 @@ Docker + Docker Compose installed. That's it.
 ### 1. Clone and configure
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/auth-service.git
+git clone https://github.com/AdithyaRaoK14/Auth-Service.git
 cd auth-service
 cp .env.example backend/.env
 ```
