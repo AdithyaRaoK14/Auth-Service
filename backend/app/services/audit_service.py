@@ -6,7 +6,7 @@ Every call to `log()` inserts a row inside the *caller's* transaction,
 so the audit record and the action it describes commit atomically.
 """
 import uuid
-from datetime import datetime, timezone
+
 from typing import Optional
 
 from sqlalchemy import func, select
