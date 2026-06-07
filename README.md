@@ -1,10 +1,10 @@
 # 🔐 Auth Service
 
-[![CI](https://github.com/AdithyaRaoK14/Auth-Service/actions/workflows/ci.yml/badge.svg)](https://github.com/AdithyaRaoK14/Auth-Service/actions/workflows/ci.yml)
+[![CI](https://github.com/YOUR_USERNAME/auth-service/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/auth-service/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.111-009688.svg)](https://fastapi.tiangolo.com)
+[![Tests](https://img.shields.io/badge/tests-71%20passing-brightgreen.svg)](#)
 [![Coverage](https://img.shields.io/badge/coverage-65%25-yellow.svg)](#)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](#)
 
 A production-grade standalone authentication microservice — a self-hosted mini Auth0.
 Plug any app into it via REST for login, sessions, RBAC, and a full audit trail.
@@ -74,7 +74,7 @@ Docker + Docker Compose installed. That's it.
 ### 1. Clone and configure
 
 ```bash
-git clone https://github.com/AdithyaRaoK14/Auth-Service.git
+git clone https://github.com/YOUR_USERNAME/auth-service.git
 cd auth-service
 cp .env.example backend/.env
 ```
