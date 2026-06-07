@@ -9,7 +9,6 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.models.user import RefreshToken, Session
 from app.services.token_service import (
     generate_refresh_token,
-    hash_refresh_token,
     refresh_token_expiry,
 )
 
