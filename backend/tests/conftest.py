@@ -2,9 +2,9 @@
 Test configuration.
 Uses SQLite (aiosqlite) for DB and a mock Redis dict for speed.
 """
-import asyncio
+#import asyncio
 from typing import AsyncGenerator
-from unittest.mock import AsyncMock
+#from unittest.mock import AsyncMock
 
 import pytest
 import pytest_asyncio
