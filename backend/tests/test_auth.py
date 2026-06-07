@@ -2,7 +2,7 @@
 import pytest
 from httpx import AsyncClient
 
-from tests.conftest import create_user, get_auth_headers, login_user, verify_user
+from tests.conftest import create_user, get_auth_headers, login_user
 
 
 # ── Registration ──────────────────────────────────────────────────────────────
